@@ -1,7 +1,7 @@
 # Django_project_like_lion
 Django 시작!
 
-# 127.0.0.1:8000/ -> 뒤에 꼭 url 파일에 설정한 url적기!!!! (자꾸 깜빡함..)
+### * 127.0.0.1:8000/ -> 뒤에 꼭 url 파일에 설정한 url적기!!!! (자꾸 깜빡함..)
 
 ## 1. basic_mission
 
