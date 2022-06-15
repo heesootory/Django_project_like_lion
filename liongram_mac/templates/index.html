@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}홈{% endblock %}
+
+{% block content %}
+
+<main>  
+    <!--카드-->
+    <div class = "card-list">
+        {% for post in post_list %}
+            {% include 'mixin/posts/post_card.html' with detail=False %}
+        {% endfor %}
+    </div>
+    
+</main>
+
+{% endblock %}
